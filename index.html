@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WELCOME TO THE FUTURE OF FRONT-END WEB DEVELOPMENT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.webp"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="third.html">SERVICES</a></li>
+					<li><a href="second.html">BLOG</a></li>
+					<li><a href="fourth.html">ABOUT US</a></li>
+					<li><a href="fith.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<div class="text-box">
+	<h1>WELCOME TO THE FUTURE OF FRONT-END WEB DEVELOPMENT</h1>
+	<p>This site is here to show you how you can make a difference, even if it means that you have to work for it!! All you have to do is ----> Go to our "About us page"!</p>
+	<a href="second.html" class="hero-btn">Click here for more!</a>
+</div>
+	</section>
+
+<!------ Course ------->
+
+	<section class="SERVICES">
+		<h1>Services that we offer</h1>
+		<p>We offer many different services, if you are interested please click on Services at the top of page...</p>
+
+		<div class="row">
+			<div class="course-col">
+				<h3>Prices/Pricing/Price Match</h3>
+				<p>The prices will vary, depending on what you are wanting to have in/on your website. 
+				Now when it is coming to the price match is actually better than other businees out there!!</p>
+			</div>
+		</div>
+
+	</section>
+
+
+<!-----JavaScript for Toggle Menu----->
+
+	<script>
+		
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+
+</body>
+</html>

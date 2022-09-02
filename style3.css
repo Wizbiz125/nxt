@@ -1,0 +1,33 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: fill;
+	
+}
+
+nav img {
+	width: 100%;
+	padding-right: 0;
+}
+
+.text-box {
+	width: 80%;
+	color: whitesmoke;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+
+.text-box p {
+	font-size: 40px;
+	color: whitesmoke;
+	padding-left: 100px;
+	text-align: center;
+}
